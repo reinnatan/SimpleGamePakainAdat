@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://q8mqlmaeq5ri"]
+
+[ext_resource type="Script" uid="uid://dmdqrr702lg76" path="res://pakain_adat.gd" id="1_wpdt7"]
+
+[node name="MainNode" type="Node2D" unique_id=266866257]
+script = ExtResource("1_wpdt7")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1004134303]
+offset_left = 366.0
+offset_top = 59.0
+offset_right = 756.0
+offset_bottom = 505.0
+
+[node name="Label" type="Label" parent="." unique_id=1672813613]
+offset_left = 324.0
+offset_top = 7.0
+offset_right = 803.0
+offset_bottom = 50.0
+theme_override_font_sizes/font_size = 20
+text = "Pakaian adat dari daerah manakah berikut ini? "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="." unique_id=1223038103]
+offset_left = 362.0
+offset_top = 519.0
+offset_right = 548.0
+offset_bottom = 571.0
+
+[node name="Button2" type="Button" parent="." unique_id=556872380]
+offset_left = 562.0
+offset_top = 520.0
+offset_right = 743.0
+offset_bottom = 572.0
+
+[node name="Button3" type="Button" parent="." unique_id=1383566326]
+offset_left = 364.0
+offset_top = 584.0
+offset_right = 548.0
+offset_bottom = 638.0
+
+[node name="Button4" type="Button" parent="." unique_id=239340283]
+offset_left = 563.0
+offset_top = 585.0
+offset_right = 746.0
+offset_bottom = 639.0
+
+[node name="AcceptDialog" type="ConfirmationDialog" parent="." unique_id=1953879141]
